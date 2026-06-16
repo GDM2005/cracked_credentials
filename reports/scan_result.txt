@@ -1,0 +1,28 @@
+WordPress 敏感路径扫描报告
+目标: http://localhost
+发现: 24 个
+
+200 /wordpress/wp-content/ HIGH
+200 /wordpress/readme.html HIGH
+200 /wordpress/license.txt HIGH
+403 /wordpress/.htaccess MEDIUM
+200 /wordpress/wp-includes/ HIGH
+200 /wordpress/wp-login.php HIGH
+302 /wordpress/wp-admin/ MEDIUM
+200 /wordpress/wp-config.php HIGH
+403 /wordpress/.htpasswd MEDIUM
+200 /wordpress/ HIGH
+200 /wordpress/wp-content/plugins/ HIGH
+200 /wordpress/wp-content/themes/ HIGH
+200 /wordpress/wp-content/uploads/ HIGH
+200 /wordpress/wp-admin/admin-post.php HIGH
+200 /wordpress/wp-admin/install.php HIGH
+302 /wordpress/wp-signup.php MEDIUM
+200 /wordpress/wp-links-opml.php HIGH
+200 /wordpress/wp-cron.php HIGH
+403 /wordpress/wp-mail.php MEDIUM
+200 /wordpress/wp-admin/upgrade.php HIGH
+302 /wordpress/wp-activate.php MEDIUM
+200 /wordpress/wp-trackback.php HIGH
+200 /wordpress/wp-includes/js/ HIGH
+200 /wordpress/wp-includes/css/ HIGH
